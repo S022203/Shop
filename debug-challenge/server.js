@@ -5,9 +5,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const products = [
-  { id: 1, name: 'Mug', price: 8.5, category: 'kitchen', stock: 12 }
-  { id: 2, name: 'Poster', price: 5, category: 'art', stock: 0 },
-  { id: 3, name: 'Notebook', price: 3.25, category: 'stationery', stock: 40 }
+  { id: 1, name: 'Grass slippers', price: 8.5, category: 'Footwear', stock: 12 },
+  { id: 2, name: 'Fishflops', price: 5, category: 'Footwear', stock: 0 },
+  { id: 3, name: 'Big Bean', price: 3.25, category: 'Food', stock: 40 }
 ];
 
 app.use(express.static(path.join(__dirname, 'publc')));
