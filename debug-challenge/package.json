@@ -1,0 +1,11 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "Week 2 debug challenge: find and fix 6 bugs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "ISC"
+}

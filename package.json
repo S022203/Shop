@@ -1,0 +1,16 @@
+{
+  "name": "week2-resources",
+  "version": "1.0.0",
+  "description": "- solution/         Teacher model answer (run: npm install, then npm run dev) - scaffold/         TODO version for students who need more support - debug-challenge/  Broken shop with 6 bugs for fast sessions (answer key in the Teacher Guide, section 14) - solution/public/script.challenge.js and products.json: the USE_LOCAL_FILE challenge task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
