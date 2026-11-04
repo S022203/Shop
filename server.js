@@ -1,4 +1,4 @@
-const express = require('expres');
+const express = require('express');
 const path = require('path');
 
 const app = express();
@@ -11,7 +11,7 @@ const products = [
   //{ id: 4, name: 'Apple Majic '}
 ];
 
-app.use(express.static(path.join(__dirname, 'publc')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 /** GET /api/product: sends every product as JSON. */
 app.get('/api/product', (req, res) => {

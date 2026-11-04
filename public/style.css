@@ -1,2 +1,7 @@
-body { font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; }
-li { margin-bottom: .5rem; }
+body { 
+    font-family: Arial, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; 
+    background-color: pink;
+}
+li { 
+    margin-bottom: .5rem; 
+}
